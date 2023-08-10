@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Entity.css';
 
-const Entity = ({ name, img, level ,category}) => {
+const Entity = ({ name, img, level}) => {
   return (
     <div className="entity">
       <img src={img} alt={name} />
